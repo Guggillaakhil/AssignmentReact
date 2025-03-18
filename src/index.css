@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-img-top{
+    height: min-content;
+    width: auto;
+}
+.footerBar{
+    display: flex;
+    flex-direction:row;
+
+}
+
+.footerIcons{
+    margin: 20px;
+    font-size: 30px;
+}
+.footerIcons .heart{
+    cursor: pointer;
+}
+.container-Form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
